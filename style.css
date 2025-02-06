@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-menusuperior{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-menusuperior{
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menusuperior{
+    background-image: url(imagens/background-menusuperior.svg);
+    color: white;
+}
+
+#menuinformacional{
+    background-color: #eaece5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+   margin: 50px 0px 50px 100px;
+   padding: 25px;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#video{
+    margin: 50px 25px 50px 150px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 25px;
+}
+
+#titulocarrossel{
+    color: #EAECE5;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    margin-left: 150px;
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+
+    
+}
+
+#setaesquerda{
+    display: none;
+}
+
+#samantha{
+    display: none;
+}
+
+.seta{
+    margin-top: 60%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    margin: 25px;
+    text-align: center;
+}
+
+#titulo-formulario{
+    margin-top: 25px;
+    font-size: 25px;
+    color: #383838;
+}
+
+input{
+    Width: 300px;
+    Height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    font-family: 'inter';
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #359ecb;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #4b5f67;
+    transition-duration: 0.5s;
+}
+
+
